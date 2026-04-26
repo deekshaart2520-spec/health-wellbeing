@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yoga website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- swiper cdn link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <!-- custom css link -->
+    <link rel="stylesheet" href="stylee.css">
+
+    <!-- font awsome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<body>
+    <!-- hearder section start -->
+    <header class="header">
+        <a href="#" class="logo"> <i class="fas fa-leaf"></i>SoulAsana</a>
+
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="classes.html">Classes</a>
+            <a href="team.html">Team</a>
+            <a href="contact.html">Contact</a>
+
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-user" id="user-btn"></div>
+        </div>
+
+        <form action="#" class="login-form">
+            <h3>Login Form</h3>
+
+            <input type="email" name="email" placeholder="Enter Your Email" class="box" required>
+            <input type="password" name="password" placeholder="Enter Your Password" class="box" required>
+
+            <div class="remember">
+                <input type="checkbox" name="remember" id="remember">
+                <label for="remember"> Remember Me</label>
+            </div>
+
+            <input type="submit" value="Login" class="btn">
+
+            <p>Forgot Password? <a href="#">Click Here</a></p>
+            <p>Don't have an account? <a href="#">Create one</a></p>
+        </form>
+
+    </header>
+
+
+
+
+    <!-- classes start -->
+    <section class="classes">
+
+        <h1 class="heading"><span>Yoga</span> Classes</h1>
+
+        <!-- filter bar -->
+        <div class="filter-bar">
+            <input type="text" id="search" placeholder="Search classes">
+
+            <select id="level">
+                <option value="all">Level</option>
+                <option value="Beginner">Beginner</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Advanced">Advanced</option>
+            </select>
+
+            <select id="teacher">
+                <option value="all">Teacher</option>
+                <option value="Irene">Irene</option>
+                <option value="Gen">Gen</option>
+            </select>
+
+            <select id="duration">
+                <option value="all">Duration</option>
+                <option value="20">20 mins</option>
+                <option value="30">30 mins</option>
+                <option value="60">60 mins</option>
+            </select>
+        </div>
+        <!-- filter bar ends -->
+        <section class="classes">
+
+
+
+            <p class="class-desc">
+                Explore a variety of yoga sessions designed for every level.
+                From beginner-friendly flows to energizing core practices,
+                our classes help improve flexibility, strength, and inner balance.
+            </p>
+
+            <div class="class-container">
+
+                <div class="class-card" data-title="Seal Your Practice" data-level="Intermediate" data-teacher="Irene"
+                    data-duration="30">
+
+                    <img src="1.png" alt="Yoga Class">
+                    <div class="class-content">
+                        <h3>Seal Your Practice</h3>
+                        <p>Strengthen your body and improve flexibility with this energizing yoga flow session.</p>
+                        <span class="class-info">Intermediate • 30 mins</span>
+                        <a href="#" class="btn">Start Class</a>
+                    </div>
+                </div>
+
+                <div class="class-card" data-title="Seal Your Practice" data-level="Intermediate" data-teacher="Irene"
+                    data-duration="30">
+
+                    <img src="2.png" alt="Yoga Class">
+                    <div class="class-content">
+                        <h3>Seal Your Practice</h3>
+                        <p>Strengthen your body and improve flexibility with this energizing yoga flow session.</p>
+                        <span class="class-info">Intermediate • 30 mins</span>
+                        <a href="#" class="btn">Start Class</a>
+                    </div>
+                </div>
+
+
+                <div class="class-card" data-title="Seal Your Practice" data-level="Intermediate" data-teacher="Irene"
+                    data-duration="30">
+
+                    <img src="3.webp" alt="Yoga Class">
+                    <div class="class-content">
+                        <h3>Seal Your Practice</h3>
+                        <p>Strengthen your body and improve flexibility with this energizing yoga flow session.</p>
+                        <span class="class-info">Intermediate • 45 mins</span>
+                        <a href="#" class="btn">Start Class</a>
+                    </div>
+                </div>
+
+
+
+                <div class="class-card" data-title="Seal Your Practice" data-level="Intermediate" data-teacher="Irene"
+                    data-duration="30">
+
+                    <img src="44.jpg" alt="Yoga Class">
+                    <div class="class-content">
+                        <h3>Seal Your Practice</h3>
+                        <p>Strengthen your body and improve flexibility with this energizing yoga flow session.</p>
+                        <span class="class-info">Intermediate • 40 mins</span>
+                        <a href="#" class="btn">Start Class</a>
+                    </div>
+                </div>
+
+
+                <div class="class-card" data-title="Morning Flow" data-level="Beginner" data-teacher="Aisha"
+                    data-duration="20">
+                    <img src="meditation yogaa.avif" alt="Yoga Class">
+                    <div class="class-content">
+                        <h3>Morning Flow</h3>
+                        <p>A gentle session to wake up your body, improve mobility, and start your day with calm energy.
+                        </p>
+                        <span class="class-info">Beginner • 20 mins</span>
+                        <a href="#" class="btn">Start Class</a>
+                    </div>
+                </div>
+
+                <div class="class-card" data-title="Power Yoga" data-level="Advanced" data-teacher="Rahul"
+                    data-duration="50">
+                    <img src="plank.webp" alt="Yoga Class">
+                    <div class="class-content">
+                        <h3>Power Yoga</h3>
+                        <p>An intense full-body workout focused on strength, endurance, and dynamic movements.</p>
+                        <span class="class-info">Advanced • 50 mins</span>
+                        <a href="#" class="btn">Start Class</a>
+                    </div>
+                </div>
+
+                <div class="class-card" data-title="Power Yoga" data-level="Advanced" data-teacher="Rahul"
+                    data-duration="50">
+                    <img src="katie-bush-FqJQvAzcH6Y-unsplash.jpg" alt="Yoga Class">
+                    <div class="class-content">
+                        <h3>Vinyasa Bliss</h3>
+                        <p>It is a smooth, breath-led flow that energizes the body and calms the mind, leaving you feeling balanced and refreshed.</p>
+                        <span class="class-info">Advanced • 50 mins</span>
+                        <a href="#" class="btn">Start Class</a>
+                    </div>
+                </div>
+
+
+                <div class="class-card" data-title="Power Yoga" data-level="Advanced" data-teacher="Rahul"
+                    data-duration="50">
+                    <img src="Sattva-Yoga-Retreat-Rishikesh-1024x675.jpg" alt="Yoga Class">
+                    <div class="class-content">
+                        <h3>Sattva Sessions</h3>
+                        <p> Sattva Sessions is not just yoga it is a practice of awareness, balance, and inner peace.</p>
+                        <span class="class-info">Advanced • 50 mins</span>
+                        <a href="#" class="btn">Start Class</a>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+        </section>
+
+        <section class="pricing">
+
+            <h1 class="heading"><span>Membership</span> Plans</h1>
+
+            <div class="pricing-container">
+
+                <div class="price-card">
+                    <h3>Free Trial</h3>
+                    <h2>$0</h2>
+                    <p>Try our yoga classes before committing.</p>
+                    <ul>
+                        <li>3 Free Classes</li>
+                        <li>Beginner Friendly</li>
+                        <li>Basic Meditation</li>
+                    </ul>
+                    <a href="#" class="btn">Start Free Trial</a>
+                </div>
+
+                <div class="price-card">
+                    <h3>Monthly Plan</h3>
+                    <h2>$19</h2>
+                    <p>Perfect for regular yoga practice.</p>
+                    <ul>
+                        <li>Unlimited Classes</li>
+                        <li>All Yoga Styles</li>
+                        <li>Meditation Library</li>
+                    </ul>
+                    <a href="#" class="btn">Join Now</a>
+                </div>
+
+                <div class="price-card">
+                    <h3>Premium Plan</h3>
+                    <h2>$39</h2>
+                    <p>Full access to all wellness programs.</p>
+                    <ul>
+                        <li>Unlimited Classes</li>
+                        <li>Personal Coaching</li>
+                        <li>Advanced Programs</li>
+                    </ul>
+                    <a href="#" class="btn">Join Now</a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <section class="class-info-section">
+
+            <h2>Discover the Benefits of Yoga</h2>
+            <img src="yi 3.webp" alt="">
+
+            <p>
+                Our yoga classes are designed to help you achieve balance between body and mind.
+                Whether you are a beginner starting your yoga journey or an advanced practitioner
+                looking to deepen your practice, our classes offer something for everyone.
+
+                Each session focuses on breathing techniques, flexibility, strength building,
+                and mindfulness. Practicing yoga regularly improves posture, reduces stress,
+                enhances concentration, and promotes overall wellness.
+
+                Join our expert instructors and explore a wide range of yoga styles including
+                Vinyasa, Power Yoga, Meditation, and Relaxation sessions. With flexible class
+                durations from 10 to 60 minutes, you can practice anytime that suits your lifestyle.
+            </p>
+
+        </section>
+
+
+
+        <!-- footer section start  -->
+        <section class="footer">
+
+            <div class="box-container">
+
+                <div class="box">
+                    <h3><i class="fas fa-leaf"></i> Soulasana Website</h3>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, reiciendis.</p>
+
+                    <div class="share">
+                        <a href="#" class="fab fa-facebook"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-linkedin"></a>
+                    </div>
+                </div>
+
+
+                <div class="box">
+                    <h3>Contact Information</h3>
+
+                    <a href="#" class="links">
+                        <i class="fas fa-phone"></i> +8674-342-227
+                    </a>
+
+                    <a href="#" class="links">
+                        <i class="fas fa-phone"></i> +8674-342-228
+                    </a>
+
+                    <a href="#" class="links">
+                        <i class="fas fa-envelope"></i> info@gmail.com
+                    </a>
+
+                    <a href="#" class="links">
+                        <i class="fas fa-map-marker-alt"></i> California
+                    </a>
+                </div>
+
+
+                <div class="box">
+                    <h3>Easy Links</h3>
+
+                    <a href="#" class="links">
+                        <i class="fas fa-arrow-right"></i> Privacy Policy
+                    </a>
+
+                    <a href="#" class="links">
+                        <i class="fas fa-arrow-right"></i> Refund Policy
+                    </a>
+
+                    <a href="#" class="links">
+                        <i class="fas fa-arrow-right"></i> My Account
+                    </a>
+
+                    <a href="#" class="links">
+                        <i class="fas fa-arrow-right"></i> My Wishlist
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="credit">
+                &copy; 2025 Soulasana Website. All rights reserved by
+                <a href="#" class="link">Deeksha</a>
+            </div>
+
+        </section>
+
+
+        <!-- footer ends -->
+
+
+
+
+        <!-- js cdn -->
+        <script>
+
+            const search = document.getElementById("search");
+            const level = document.getElementById("level");
+            const teacher = document.getElementById("teacher");
+            const duration = document.getElementById("duration");
+
+            const cards = document.querySelectorAll(".class-card");
+            const noResult = document.getElementById("noResult");
+
+            function filterYoga() {
+
+                let searchValue = search.value.toLowerCase();
+                let levelValue = level.value;
+                let teacherValue = teacher.value;
+                let durationValue = duration.value;
+
+                let visible = 0;
+
+                cards.forEach(card => {
+
+                    let title = card.dataset.title.toLowerCase();
+                    let cLevel = card.dataset.level;
+                    let cTeacher = card.dataset.teacher;
+                    let cDuration = card.dataset.duration;
+
+                    let matchSearch = title.includes(searchValue);
+                    let matchLevel = levelValue === "all" || cLevel === levelValue;
+                    let matchTeacher = teacherValue === "all" || cTeacher === teacherValue;
+                    let matchDuration = durationValue === "all" || cDuration === durationValue;
+
+                    if (matchSearch && matchLevel && matchTeacher && matchDuration) {
+
+                        card.classList.remove("hide");
+
+                        setTimeout(() => {
+                            card.style.position = "relative";
+                        }, 200);
+
+                        visible++;
+
+                    } else {
+
+                        card.classList.add("hide");
+
+                    }
+
+                });
+
+                if (visible === 0) {
+                    noResult.style.display = "block";
+                } else {
+                    noResult.style.display = "none";
+                }
+
+            }
+
+            search.addEventListener("input", filterYoga);
+            level.addEventListener("change", filterYoga);
+            teacher.addEventListener("change", filterYoga);
+            duration.addEventListener("change", filterYoga);
+
+        </script>
+
+
+
+
+
+
+
+</body>
+
+</html>
